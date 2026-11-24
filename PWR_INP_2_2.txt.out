@@ -1,0 +1,777 @@
+
+
+
+ FIXED   CORE ALLOCATION 1000000 WORDS (4 BYTES) OF STORAGE REQUIRED
+
+
+
+     COBRA-EN PROBLEM
+     EXECUTED ON: 15/11/2026     AT TIME:   16:31:51
+1                    ***   INPUT ECHO   ***
+
+                                 1         2         3         4         5         6         7
+                        123456789012345678901234567890123456789012345678901234567890123456789012********
+                        --------------------------------------------------------------------------------
+     REC. NO. =    1                                                                                    
+     REC. NO. =    2         0     2     2     1                                                        
+     REC. NO. =    3         2     1     0    18     1     0     0     5     0     0     0     1        
+     REC. NO. =    4       -0.20                                                                        
+     REC. NO. =    5        18                                                                          
+     REC. NO. =    6      0.13                                                                          
+     REC. NO. =    7    8.2211E+05                                                                      
+     REC. NO. =    8      0.33                                                                          
+     REC. NO. =    9    2.0634E+06                                                                      
+     REC. NO. =   10      0.53                                                                          
+     REC. NO. =   11    3.2440E+06                                                                      
+     REC. NO. =   12      0.73                                                                          
+     REC. NO. =   13    4.3292E+06                                                                      
+     REC. NO. =   14      0.93                                                                          
+     REC. NO. =   15    5.2872E+06                                                                      
+     REC. NO. =   16      1.13                                                                          
+     REC. NO. =   17    6.0897E+06                                                                      
+     REC. NO. =   18      1.33                                                                          
+     REC. NO. =   19    6.7132E+06                                                                      
+     REC. NO. =   20      1.53                                                                          
+     REC. NO. =   21    7.1393E+06                                                                      
+     REC. NO. =   22      1.73                                                                          
+     REC. NO. =   23    7.3556E+06                                                                      
+     REC. NO. =   24      1.93                                                                          
+     REC. NO. =   25    7.3556E+06                                                                      
+     REC. NO. =   26      2.13                                                                          
+     REC. NO. =   27    7.1393E+06                                                                      
+     REC. NO. =   28      2.33                                                                          
+     REC. NO. =   29    6.7132E+06                                                                      
+     REC. NO. =   30      2.53                                                                          
+     REC. NO. =   31    6.0897E+06                                                                      
+     REC. NO. =   32      2.73                                                                          
+     REC. NO. =   33    5.2872E+06                                                                      
+     REC. NO. =   34      2.93                                                                          
+     REC. NO. =   35    4.3292E+06                                                                      
+     REC. NO. =   36      3.13                                                                          
+     REC. NO. =   37    3.2440E+06                                                                      
+     REC. NO. =   38      3.33                                                                          
+     REC. NO. =   39    2.0634E+06                                                                      
+     REC. NO. =   40      3.53                                                                          
+     REC. NO. =   41    8.2211E+05                                                                      
+     REC. NO. =   42         1  1.0   1.842E-02    9.98712     9.12319      264        1                
+     REC. NO. =   43      0.009       0.00057      10000       6500        0.0110                       
+                        --------------------------------------------------------------------------------
+                                 1         2         3         4         5         6         7
+                        123456789012345678901234567890123456789012345678901234567890123456789012********
+1
+                                 1         2         3         4         5         6         7
+                        123456789012345678901234567890123456789012345678901234567890123456789012********
+                        --------------------------------------------------------------------------------
+     REC. NO. =   44        3.3       300          10          500         9400                         
+     REC. NO. =   45         0     0     1     1     0     1     1     0     1     0                    
+     REC. NO. =   46         0                                                                          
+     REC. NO. =   47    $            JSLIP                                                              
+     REC. NO. =   48         0     0     0                                                              
+     REC. NO. =   49         0     0     0     0     0     0                                            
+     REC. NO. =   50     10.   0.0   0.5  0.0                                                           
+     REC. NO. =   51         3     0     0  0.0      0     0    0.    0.    0.                          
+     REC. NO. =   52    $                  WERRX DAMPP DAMPF                         EPSP ISCHEM        
+     REC. NO. =   53         0     0    0.  0.     0.    0.  -.01     0.     0  0.     0.      2        
+     REC. NO. =   54         1  563  5345  15.5    -20     1   0.  0.0   0.0  1600.   0.0  0.0          
+     REC. NO. =   55         0     0     0                                                              
+     REC. NO. =   56         0     0     0     0     0                                                  
+     REC. NO. =   57         0     5     3     0     0     0    -1                                      
+     REC. NO. =   58    $EOD                                                                            
+                        --------------------------------------------------------------------------------
+                                 1         2         3         4         5         6         7
+                        123456789012345678901234567890123456789012345678901234567890123456789012********
+1
+
+
+     COBRA-EN THERMAL-HYDRAULIC
+     RUN IDENTIFICATION
+       PROBLEM TITLE:                                                                         
+       RUN DATE: 15/11/2026
+       RUN DAY TIME: 16:31:51
+
+ THERMAL-HYDRAULICS USING 8-BYTE LONG REALS AND 4-BYTE LONG INTEGERS  
+ ===================================================================
+1
+
+
+                              PROCESSED THERMAL-HYDRAULIC INPUT DATA
+                              --------------------------------------
+
+
+
+
+          VAPOR CONTINUITY EQUATION INCLUDED IN THERMAL-HYDRAULIC MODEL?   1 (0=NO, 1=YES FOR COBRA MODEL, 2=YES FOR TWIGL MODEL)
+
+
+
+                                           CHANNEL, ROD AND GRID DATA
+                                           -------  --- --- ---- ----
+
+  TYPE OF ANALYSIS          =  0     (=0 CORE, =1 SUBCHANNELS)
+  INPUT UNIT SYSTEM         =  2     (=1 AE, =2 SI)
+  OUTPUT UNIT SYSTEM        =  2     (=1 AE, =2 SI)
+  CONNECTION FLAG           =  2     (=1 OPEN CHANNELS, =2 CLOSED CHANNELS)
+  TOTAL NO. OF CHANNELS     =  1
+  NO. OF BYPASS CHANNELS    =  0
+  NO. OF FUEL RODS          =  1
+  NO. OF CHANNEL TYPES      =  1
+  NO. OF GRIDS              =  0
+  NO. OF GRID TYPES         =  0
+  NO. OF FUEL NODES         =  5
+  NO. OF FUEL TYPES         =  1
+  FUEL PIN MODEL            =  1     (=0 NO, =1 COBRA, =2 CRTN, =3 TWIGL)
+  FLAG FOR SPECIAL VECTORIZED VERSION =  1(1=NO, 2=YES)
+
+
+
+
+  TYPE      FRIC         AREA          WT PER         HT PER        NO. RODS       FUEL TYPE
+                          M2              M              M
+    1         1       0.018420       9.987120       9.123190     264.000000          1
+
+  NO GRIDS
+
+
+
+
+
+ THERMAL PROPERTIES FOR FUEL MATERIAL       5 RADIAL FUEL NODES
+ ------- ---------- --- ---- -------- 
+
+                     FUEL PROPERTIES                         CLAD PROPERTIES
+    TYPE    COND.    SP. HEAT   DENSITY    DIA.     COND.    SP. HEAT   DENSITY    THICK.   GAP COND.     ROD DIA.
+     NO.   (W/M/K)   (J/KG/K)   (KG/M3)    (M)     (W/M/K)   (J/KG/K)   (KG/M3)      (M)     (W/M2/K)          (M)  
+      1     3.30     300.0000   10000.0  0.0090    10.00     500.0000   6500.0   0.570E-03    9400.00       0.0110
+
+
+    TYPE   FRACTION OF     POWER FIT   
+     NO.  FISSION POWER    PARAMETER   
+             IN CLAD     IN FUEL PELLET
+
+      1      0.0000          0.0000
+                                           OPERATING CONDITIONS
+                                           --------------------
+
+  PRESSURE (MPA)                                            =   15.5000
+  AV. INLET MASS FLUX FOR FUEL CHANNELS (KG/M2/SEC)          = 0.53450E+04
+  AV. INLET MASS FLUX FOR BYPASS CHANNELS (KG/M2/SEC)        = 0.53450E+04
+  EXIT ENTHALPY (MJ/KG)                                      =     0.0000 (IF 0.0, INLET ENTHALPY ASSUMED)
+  UNIFORM PRESSURE DROP (MPA)               = -20.00000
++                                                          (=0.0 NO UNIFORM PRESSURE DROP REQUIRED, 
+                                                            <0.0 UNSPECIFIED UNIFORM PRESSURE DROP REQUIRED)
+  SWITCHOVER TO NONUNIFORM PRESSURE DROP IN TRANSIENT
+  POWER NORMALIZATION FACTOR                 = 1.00000E+00
+  FRACTION OF FISSION POWER IN COOLANT       =  0.000000   (     100.00% INSIDE CHANNEL, REMAINING PART IN BYPASS CHANNEL)
+  INLET BORON CONCENTRATION (PPM)            = 1600.00
+
+  DILUTE BORON CONCENTRATION (PPM) COMPUTED BY THERMAL-HYDRAULIC SECTION
+  CHANNEL LENGTH (M)                         =      3.60
+  NO. OF AXIAL INTERVALS                     =   18
+  IH= 1  INLET TEMPERATURE (K)               =    563.000
+  NO TRANSIENT CALCULATION OR TIME STEP SUPPLIED BY NEUTRONICS
+
+
+                                           THERMAL - HYDRAULIC MODEL
+                                           -------------------------
+
+  (1) MIXING
+      ------
+  MIXING CORRELATIONS OPTION (NSCBC) =   0     (=0 W/GS=A,  =1 W/GS=A*RE**B,   =2 W/GD=A*RE**B,  =3 W/GS=D/ZIJ*A*RE**B)
+  MIXING COEFFICIENT (BETA)          =  0.000* (RE** 0.00)
+  TWO-PHASE MIXING OPTION (NBBC)     =       0     (<2 SAME AS SUBCOOLED LIQUID,   >1 TABLE IN QUALITY)
+  THERMAL CONDUCTION GEOMETRY FACTOR (GK) =  0.000
+
+  (2) SINGLE-PHASE FRICTION          F = A*(RE**B) + C
+      ------ ----- --------
+  NVISCW =  0                (=0 FOR NO WALL VISCOSITY CORRECTION, =1 FOR INCLUSION)
+
+  FRIC TYPE     A         B         C      REGIME
+      1       0.1840   -0.2000    0.0000   TURBULENT
+      2       0.1840   -0.2000    0.0000   TURBULENT
+      3       0.1840   -0.2000    0.0000   TURBULENT
+      4       0.1840   -0.2000    0.0000   TURBULENT
+      1      64.0000   -1.0000    0.0000   LAMINAR
+      2      64.0000   -1.0000    0.0000   LAMINAR
+      3      64.0000   -1.0000    0.0000   LAMINAR
+      4      64.0000   -1.0000    0.0000   LAMINAR
+
+  (3) TWO-PHASE FRICTION
+      --- ----- --------
+  J4 =  1                    (=1 EPRI,  =2 HOMOGENEOUS,  =3 ARMAND,  =4 BAROCZY,  =5 POLYNOMIAL IN QUALITY)
+
+  (4) SUBCOOLED BOILING MODEL
+      --------- ------- -----
+  J2 =  1                    (=1 EPRI,  =2 LEVY,  =3 HOMOGENEOUS)
+
+  (5) VOID FRACTION
+      ---- --------
+  J3 =  1                    (=1 EPRI,   =2 ZUBER-FINDLAY,  =3 HOMOGENEOUS, =4 ARMAND,  =5 SMITH,
+                              =6 SLIP POLYNOMIAL IN QUALITY,  =7 VOID POLYNOMIAL IN QUALITY)
+
+  (*) VOID FRACTION IS COMPUTED DIRECTLY FROM A VAPOR MASS BALANCE
+      ---- -------- -- -------- -------- ---- - ----- ---- -------
+      CORRELATIONS FOR SUBCOOLED QUALITY AND VOID FRACTION ARE USED ONLY AT CORE INLET AND AT CORE OUTLET (ONLY FOR REVERSE FLOWS)
+      A SLIP CORRELATION IS USED
+      - ---- ----------- -- ----
+      JSLIP= 2                    (=1 NO SLIP, =2 BANKOFF-JONES, =3 POLYNOMIAL IN VOID FRACTION)
+
+  (6) HEAT TRANSFER MODEL
+      ---- -------- -----
+  SINGLE PHASE OPTION (IBC1)               =  1    (=1,2 DITTUS-BOELTER, I.E., NU=  0.02300*RE** 0.8000*PR** 0.4000+ 0.0000)
+  SUBCOOLED NUCLEATE BOILING OPTION (IBC2) =  2    (=1 THOM, =2 THOM+SINGLE-PHASE, =3 JENS-LOTTES, =4 ROHSENOW)
+  SATURATED NUCLEATE BOILING OPTION (IBC3) =  2    (=1 THOM, =2 THOM+SINGLE-PHASE, =4 ROHSENOW)
+  CRITICAL HEAT FLUX OPTION (IBC4)         =  3    (=1 BA&W, =2 W-3, =3 EPRI, =4 MACBETH-1,
+                                                    =5 MACBETH-2, =6 BIASI, =7 MODIFIED BARNETT)
+  TRANSITION BOILING OPTION (IBC5)         =  0    (=1 CONDIE-BENGTSON, =2 INTERPOLATED, =3 MCDONOUGH-MILICH)
+  FILM BOILING OPTION (IBC6)               =  0    (=1 GROENVELD 5.7, =2 BERENSON, =3 DOUGALL-ROHSENOW)
+  COEFFICIENTS REQUIRED BY EPRI SUBCOOLED BOILING MODEL:
+    HANCOX-NICOLL CONDENSATION FACTOR  =   0.20000
+    DITTUS-BOELTER LEADING COEFFICIENT =   0.02300
+
+  (7) FLOW DIVISION AT INLET
+      ---- -------- -- -----
+  IG =  0                    (IG=0 SAME G,  =1 SAME DP/DX,  =2 GIN/GAV GIVEN)
+
+  (7) BORON DIVISION AT INLET
+      ----- -------- -- -----
+  IBOR =  0                  (IBOR=0,1  SAME BORON CONC.,   =2 REL. BORON CONC. GIVEN)
+
+  (8) CONSTANTS
+      ---------
+  CROSS-FLOW RESISTANCE (KIJ)      =    10.000
+  MOMENTUM TURBULENT FACTOR (FTM)  =     0.000
+  TRANSVERSE MOMENTUM FACTOR (S/L) =     0.500
+  CHANNEL  ANGLE FROM VERTICAL     =     0.000   DEGREES
+
+  (9) CRITICAL HEAT FLUX
+      -------- ---- ----
+  NCHF                                           =  3     (=0 NO, =1 BAW-2, =2 W-3, =3 EPRI, =4 MACBETH-1,
+                                                           =5 MACBETH-2, =6 BIASI, =7 MODIFIED BARNETT)
+  COLD WALL CORRECTION OPTION (NCWC)             =  0     (=0 NO,  =1 YES)
+  NONUNIFORM AXIAL FLUX CORRECTION OPTION (NUFC) =  0     (=0 NO,  =1 YES)
+  GRID LOSS COEFFICIENT (CGRID)                  =   1.00000
+
+ (10) CRITICAL POWER
+      -------- -----
+  NCPR                               =     0     (=0 NO,  =1 GE-XL,  =3 CISE-3,  =2 BOTH)
+
+ (11) ITERATION
+      ---------
+  MINIMUM NUMBER OF ITERATIONS              =               2
+  MAXIMUM NUMBER OF ITERATIONS              =              20
+  AXIAL FLOW CONVERGENCE CRITERION          =           0.001000
+  CROSSFLOW CONVERGENCE CRITERION           =           0.010000
+  CROSSFLOW DAMPING FACTOR                  =           0.800000
+  AXIAL FLOW DAMPING FACTOR                 =           0.800000
+  WEIGHTING FACTOR FOR UPWARD DONOR ENTHALPY=           1.000000  (FOR NEGATIVE MASS FLOWRATE)
+  H.T. COEFFICIENT  CONVERGENCE CRITERION   =          -0.010000  (IF NEGATIVE, USED FOR INTERNAL ITERATIONS)
+  ROD TEMPERATURE CONVERGENCE CRITERION (F) =          -1.000000  (IF NEGATIVE, USED FOR INTERNAL ITERATIONS)
+  MAXIMUM NUMBER OF INTERNAL ITERATIONS     =              10
+  PRESSURE DROP CONVERGENCE CRITERION       =           0.001000
+  MAX. RELATIVE CONTINUITY ERROR            =           0.001000
+  PRESSURE ITERATION CONVERGENCE CRITERION  =           0.000100
+  FLAG FOR ROD TEMPERATURE CALCULATION      =               1     (1=AT EACH FLUID FLOW ITERATION, 2=ONLY ONCE)
+  FLAG FOR ITERATIVE SOLUTION SCHEME        =               2     (1=PRESSURE GRADIENT, 2=NEWTON-RAPHSON)
+  FLAG FOR CALCULATION OF COOLANT PROPERTIES=               0     (0=AT SYSTEM PRESSURE, 1=AT LAST UPDATED LOCAL PRESSURE,
+                                                                  2=AT PREVIOUS STEP LOCAL PRESSURE (ONLY IN TRANSIENT))
+  BANDWIDTH FOR CHANNEL LAYOUT              =               1
+
+
+     OUTPUT OPTIONS
+     --------------
+
+  DETAILED OUTPUT EVERY   1 AXIAL STEP
+  SHORT OUTPUT EVERY   5 TIME STEP
+  OUTPUT INDEX 3 (0=CHANNELS RESULTS, 1=CHANNEL RESULTS + CROSSFLOW TABLE,
+                  2=CHANNEL & FUEL ROD RESULTS, 3=CHANNEL & FUEL ROD RESULTS + CROSSFLOW TABLE)
+  THERMAL-HYDRAULIC PLOTFILE (COBRAPLT) REQUIRED
+  DETAILED OUTPUT REQUIRED FOR CHANNELS:      1
+  DETAILED OUTPUT REQUIRED FOR FUEL RODS:     1
+  DETAILED OUTPUT REQUIRED FOR FUEL NODES:    1    2    3    4    5    6    7
+
+ 128 BLOCKS
+ NAME        ORIGIN LENGTH
+ ----------  ------  ------
+ FRST     0       1       2
+ A        0       3       2
+ ALFP     0       5      40
+ ALFO     0      45      40
+ B        0      85      80
+ BINL     0     165       2
+ BORC     0     167      40
+ BORO     0     207      40
+ BWGH     0     247       2
+ CCHA     0     249      20
+ CD       0     269       6
+ CHFR     0     275      20
+ CON      0     295       2
+ CP       0     297       2
+ D        0     299       2
+ DFDP     0     301      40
+ DFDX     0     341       2
+ DGVA     0     343      40
+ DGVM     0     383      40
+ DHDX     0     423       2
+ DHYD     0     425       2
+ DIST     0     427       4
+ DPDX     0     431       2
+ DPK      0     433       2
+ DPSA     0     435      40
+ DQVA     0     475      40
+ DSLI     0     515      40
+ EPRK     0     555       2
+ F        0     557      40
+ FINL     0     597       2
+ FLUX     0     599      20
+ FLXO     0     619      20
+ FMUL     0     639       2
+ FOLD     0     641      40
+ FSP      0     681       2
+ FSAV     0     683      40
+ GAMV     0     723      40
+ GAPS     0     763       4
+ H        0     767      40
+ HBOR     0     807       2
+ HFL2     0     809       2
+ HGAP     0     811      20
+ HINL     0     831       2
+ HOLD     0     833      40
+ HPER     0     873       2
+ HSUR     0     875      20
+ IDFU     0     895       2
+ IFBO     0     897       2
+ JBOI     0     899       2
+ JBST     0     901       6
+ JSAT     0     907       2
+ KMAT     0     909      14
+ KNOD     0     923      14
+ LC       0     937       4
+ MASN     0     941       8
+ LR       0     949       6
+ MCHF     0     955      20
+ MCFC     0     975      20
+ MCFR     0     995      20
+ MODE     0    1015      20
+ NBYP     0    1035       2
+ NTYP     0    1037       2
+ P        0    1039      40
+ PERI     0    1079       2
+ PHI      0    1081       6
+ POLD     0    1087      40
+ PPK      0    1127      20
+ PRNC     0    1147       4
+ PRNN     0    1151       8
+ PRNR     0    1159       4
+ QCHF     0    1163      20
+ QF       0    1183      20
+ QFB      0    1203       2
+ QPRI     0    1205       2
+ QVAP     0    1207      40
+ RBOU     0    1247       8
+ RHO      0    1255      40
+ RHOL     0    1295      40
+ RHOO     0    1335      40
+ RHOQ     0    1375      40
+ RHOV     0    1415      40
+ RTEM     0    1455       8
+ SATQ     0    1463       6
+ SLIP     0    1469      40
+ T        0    1509      40
+ TCHF     0    1549      20
+ TDU1     0    1569      14
+ TDU2     0    1583      14
+ TDU3     0    1597      14
+ TFLU     0    1611      20
+ TINL     0    1631       2
+ TROD     0    1633     280
+ TROL     0    1913     280
+ U        0    2193       2
+ UH       0    2195      40
+ V        0    2235       2
+ VISC     0    2237       2
+ VISW     0    2239       2
+ VOLN     0    2241       8
+ VP       0    2249      40
+ VXOL     0    2289       6
+ X        0    2295      20
+ XXA      0    2315     560
+ XXB      0    2875      80
+ AXLB     0    2955       2
+ CPR      0    2957       2
+ ITCP     0    2959       2
+ PC       0    2961       2
+ PCRI     0    2963       2
+ QINT     0    2965      20
+ XC       0    2985      20
+ XE       0    3005      20
+ COND     0    3025       2
+ DWDP     0    3027      40
+ FACT     0    3067       2
+ GAP      0    3069       2
+ IK       0    3071       2
+ JK       0    3073       2
+ LENG     0    3075       2
+ SP       0    3077      40
+ USAV     0    3117       2
+ USTA     0    3119       2
+ W        0    3121      40
+ WOLD     0    3161      40
+ WP       0    3201       2
+ WSAV     0    3203      40
+ AAA      0    3243      12
+ LAST     0    3255       2
+
+
+ UNUSED CORE -   996744 WORDS (4 BYTES)
+1
+
+
+
+ ===== SUMMARY OUTPUT FROM POWER DISTRIBUTION (COBRA-EN) =====
+
+
+   CORE   FISSION POWER    =  5.866065E+07 BTU/HR     IE 1.718024E+07 W 
+
+   CORE   AVERAGE HEAT FLUX =  1.659310E+05 BTU/FT2/HR      IE 5.230942E+05 W/M2 
+
+
+  MAX. RADIAL FORM FACTOR =   1.000  AT AXIAL INTERVAL     1
+  MAX. AXIAL  FORM FACTOR =   1.541  IN  CHANNEL           1
+
+  MAXIMUM RATED  CHANNEL  IS NO.   1 WITH AVERAGE HEAT FLUX = 0.52309E+06 W/M2 IE  1.0000 TIMES AVERAGE
+  AVERAGE RATED  CHANNEL             WITH AVERAGE HEAT FLUX = 0.52309E+06 W/M2
+  MINIMUM RATED  CHANNEL  IS NO.   1 WITH AVERAGE HEAT FLUX = 0.52309E+06 W/M2 IE  1.0000 TIMES AVERAGE
+1 C O B R A - E N                                                                          AT    TIME (SEC)  =    0.0000 PAGE   1
+
+
+                                                                         LINEAR FISSION POWER        (W/M)       
+
+ COLUMN
+            
+           1
+ ROW
+   1  6.3592E+05
+
+   2  1.8772E+06
+
+   3  3.0669E+06
+
+   4  4.1664E+06
+
+   5  5.1435E+06
+
+   6  5.9693E+06
+
+   7  6.6197E+06
+
+   8  7.0754E+06
+
+   9  7.3232E+06
+
+  10  7.3556E+06
+
+  11  7.1717E+06
+
+  12  6.7771E+06
+
+  13  6.1832E+06
+
+  14  5.4076E+06
+
+  15  4.4729E+06
+
+  16  3.4068E+06
+
+  17  2.2405E+06
+
+  18  1.0083E+06
+
+1    PROBLEM TITLE:                                                                         
+
+
+      CHANNEL      INTEGRATED POWER (W/M)       
+
+       1 -  1    1.71802E+07
+
+ TIME STEP NO.     0
+  Time step no.           0
+
+
+
+
+ THE PHYSICAL PROPERTIES OF LIQUID WATER ARE DIRECTLY COMPUTED AT EACH NODE
+ --- -------- ---------- -- ------ ----- --- -------- -------- -- ---- ----
+
+
+
+
+
+
+ THE PHYSICAL PROPERTIES OF WATER VAPOR ARE DIRECTLY COMPUTED AT EACH NODE
+ --- -------- ---------- -- ----- ----- --- -------- -------- -- ---- ----
+
+
+
+
+ SATURATED WATER PROPERTIES AT PRESSURE = 15.500001 MPA
+
+ TEMPERATURE (K)                          =  618.68    
+ LIQUID ENTHALPY (MJ/KG)                  =  1.6295        VAPOR ENTHALPY (MJ/KG)                   =  2.5988    
+ LIQUID SPECIFIC VOLUME (M3/KG)           = 0.17031E-02    VAPOR SPECIFIC VOLUME (M3/KG)            = 0.99874E-02
+ LIQUID VISCOSITY (KG/M/S)                = 0.67252E-04    VAPOR VISCOSITY (KG/M/S)                 = 0.23004E-04
+ LIQUID THERMAL CONDUCTIVITY (W/M/K)      = 0.44445        VAPOR THERMAL CONDUCTIVITY (W/M/K)       = 0.11912    
+ LIQUID SPECIFIC HEAT (KJ/KG/K)           =  7.7535        VAPOR SPECIFIC HEAT (KJ/KG/K)            =  17.597    
+ EVAPORATION ENTHALPY (MJ/KG)             = 0.96930        LIQUID SURFACE TENSION (N/M)             = 0.46337E-02
+
+  START HYDRAULIC CALCULATIONS AT STEADY STATE (TIME =      0.00000)
+  #---------------------------------------CORE CONVERGENCE (AT ALL AXIAL LEVELS)-------------------------------------------------#
+  EXT MAX PRES  PMIN    PMAX   PRESSURE AXIAL FLOW ROD TEMP. HEAT T.C. MIX.CONT. VAP.CONT. CROSSFLOW REV. VOID FRAC ENTHALPY  POST
+  IT. INT IT.S  (PSI)   (PSI)  DROP CONV CONVERG.  CONV.(F)  CONVERG.   ERROR     ERROR    CONVERG.  FLOW CONVERG.  CONVERG.  CHF 
+   1   2         22.42   22.42  0.000000  0.189810   248.311  1.000000  0.234411  0.000000           NO    0.000000  0.136056  NO
+   2   2         23.50   23.50  0.000000  0.012761    54.196  0.190498  0.001327  0.000000           NO    0.000000  0.000000  NO
+   3   2         23.50   23.50  0.000000  0.000000     0.235  0.010227  0.000000  0.000000           NO    0.000000  0.000000  NO
+
+  FUEL VOLUME (m3)     =     0.060                      AVERAGE FUEL ENTHALPY (J/kg)   = 174209.    
+  MAXIMUM FUEL ENTHALPY (J/kg)   = 229722.     ------>  AT FUEL ROD   1 & AXIAL INTERVAL  11
+  MEAN FUEL TEMPERATURE (K)      =   905.35             MAXIMUM FUEL TEMPERATURE (K)      =  1083.78
+  COOLANT VOLUME (m3)     =     0.066
+  EXIT COOLANT MASS FLOWRATE (kg/s)   = 98.4543         EXIT COOLANT ENERGY FLOWRATE (W)      =0.143454E+09
+  AVERAGE VOID FRACTION = 0.000000                      EXIT MEAN VOID FRACTION = 0.000000
+  MAXIMUM VOID FRACTION = 0.000000 ------>              AT CHANNEL   0 & AXIAL INTERVAL   0
+  AVERAGE BORON CONCENTRATION (PPM) =  1600.000
+  MEAN COOLANT TEMPERATURE (K)      =   579.19          EXIT MEAN COOLANT TEMPERATURE (K)      =   593.57
+  MEAN COOLANT DENSITY (kg/m3)  = 712.334               EXIT MEAN COOLANT DENSITY (kg/m3)  = 676.322
+  AVERAGE PRESSURE DROP (Pa)     = 1.620425E+05         AVERAGE HYDROSTATIC HEAD (Pa)     = 2.514822E+04
+
+     RELATIVE MASS UNBALANCE      =   0.000000
+     MAXIMUM COURANT NUMBER       =   0.000000
+1PROBLEM TITLE :                                                                         
+
+
+ TIME =  0.00000 SEC   - CHANNEL EXIT SUMMARY RESULTS
+
+ MASS BALANCE - - (KG/SEC)              ENERGY BALANCE - - ( MW )               BORON MASS BALANCE - - (KG/SEC)
+
+  MASS FLOW IN           98.45428         ENERGY FLOW IN      126.27370           BORON FLOW IN        0.157527
+                                          ENERGY ADDED         17.18026
+  MASS FLOW OUT          98.45428         ENERGY FLOW OUT     143.45393           BORON FLOW OUT       0.157527
+  MASS STORED             0.00000         ENERGY STORED         0.00000           BORON STORED         0.000000
+  MASS FLOW ERROR         0.00000         ENERGY ERROR         -0.00001           BORON MASS ERROR     0.000000
+
+  CHANNEL   DELTA-P    ENTHALPY   TEMPERATURE   DENSITY    FLOWING    VOID       FLOW       MASS FLUX       BORON
+    NO.      (KPA)      (MJ/KG)     (DEG-K)     (KG/M3)    QUALITY  FRACTION   (KG/SEC)    (KG/M2/SEC)      (PPM)
+
+     1       162.04      1.4571       593.57     676.32     0.00000   0.00000   98.45428    5345.00049      1600.0
+1PROBLEM TITLE :                                                                         
+
+
+ TIME =  0.00000 SEC   - ASSEMBLY AVERAGED RESULTS
+
+ DISTANCE  DELTA-P   ENTHALPY  TEMPERATURE  DENSITY   FLOWING   VOID       FLOW     MASS FLUX      BORON      CHF      CHF TEMP.
+   (M)      (KPA)     (MJ/KG)    (DEG-K)    (KG/M3)   QUALITY FRACTION  (KG/SEC)  (KG/M2/SEC)      (PPM)    (MW/M2)     (DEG-K)
+
+   0.000    162.04     1.2826      563.00    749.14   0.00000  0.00000   98.45428 5345.00049     1600.0
+   0.200    153.43     1.2838      563.24    748.66   0.00000  0.00000   98.45428 5345.00049     1600.0
+   0.400    144.76     1.2877      563.96    747.24   0.00000  0.00000   98.45428 5345.00049     1600.0
+   0.600    136.03     1.2939      565.12    744.90   0.00000  0.00000   98.45428 5345.00049     1600.0
+   0.800    127.25     1.3024      566.70    741.69   0.00000  0.00000   98.45428 5345.00049     1600.0
+   1.000    118.40     1.3128      568.63    737.68   0.00000  0.00000   98.45428 5345.00049     1600.0
+   1.200    109.49     1.3249      570.85    732.95   0.00000  0.00000   98.45428 5345.00049     1600.0
+   1.400    100.51     1.3384      573.28    727.62   0.00000  0.00000   98.45428 5345.00049     1600.0
+   1.600     91.48     1.3527      575.86    721.82   0.00000  0.00000   98.45428 5345.00049     1600.0
+   1.800     82.40     1.3676      578.49    715.70   0.00000  0.00000   98.45428 5345.00049     1600.0
+   2.000     73.26     1.3826      581.10    709.44   0.00000  0.00000   98.45428 5345.00049     1600.0
+   2.200     64.09     1.3971      583.61    703.21   0.00000  0.00000   98.45428 5345.00049     1600.0
+   2.400     54.89     1.4109      585.95    697.21   0.00000  0.00000   98.45428 5345.00049     1600.0
+   2.600     45.68     1.4235      588.06    691.65   0.00000  0.00000   98.45428 5345.00049     1600.0
+   2.800     36.47     1.4344      589.88    686.71   0.00000  0.00000   98.45428 5345.00049     1600.0
+   3.000     27.29     1.4435      591.38    682.57   0.00000  0.00000   98.45428 5345.00049     1600.0
+   3.200     18.13     1.4505      592.50    679.38   0.00000  0.00000   98.45428 5345.00049     1600.0
+   3.400      9.03     1.4550      593.24    677.28   0.00000  0.00000   98.45428 5345.00049     1600.0
+   3.600      0.00     1.4571      593.57    676.32   0.00000  0.00000   98.45428 5345.00049     1600.0
+1PROBLEM TITLE :                                                                         
+
+
+ TIME =  0.00000 SEC  - RESULTS FOR CHANNEL    1
+
+ DISTANCE  DELTA-P   ENTHALPY  TEMPERATURE  DENSITY   FLOWING   VOID       FLOW     MASS FLUX      BORON      CHF      CHF TEMP.
+   (M)      (KPA)     (MJ/KG)    (DEG-K)    (KG/M3)   QUALITY FRACTION  (KG/SEC)  (KG/M2/SEC)      (PPM)    (MW/M2)     (DEG-K)
+
+   0.000    162.04     1.2826      563.00    749.14   0.00000  0.00000   98.45428 5345.00049     1600.0  0.000000      255.37    
+   0.200    153.43     1.2838      563.24    748.66   0.00000  0.00000   98.45428 5345.00049     1600.0  5.954535      624.82    
+   0.400    144.76     1.2877      563.96    747.24   0.00000  0.00000   98.45428 5345.00049     1600.0  5.596639      624.46    
+   0.600    136.03     1.2939      565.12    744.90   0.00000  0.00000   98.45428 5345.00049     1600.0  5.156900      623.99    
+   0.800    127.25     1.3024      566.70    741.69   0.00000  0.00000   98.45428 5345.00049     1600.0  4.753008      623.57    
+   1.000    118.40     1.3128      568.63    737.68   0.00000  0.00000   98.45428 5345.00049     1600.0  4.385862      623.19    
+   1.200    109.49     1.3249      570.85    732.95   0.00000  0.00000   98.45428 5345.00049     1600.0  4.048446      622.85    
+   1.400    100.51     1.3384      573.28    727.62   0.00000  0.00000   98.45428 5345.00049     1600.0  3.733792      622.53    
+   1.600     91.48     1.3527      575.86    721.82   0.00000  0.00000   98.45428 5345.00049     1600.0  3.435869      622.24    
+   1.800     82.40     1.3676      578.49    715.70   0.00000  0.00000   98.45428 5345.00049     1600.0  3.149534      621.96    
+   2.000     73.26     1.3826      581.10    709.44   0.00000  0.00000   98.45428 5345.00049     1600.0  2.870218      621.66    
+   2.200     64.09     1.3971      583.61    703.21   0.00000  0.00000   98.45428 5345.00049     1600.0  2.593747      621.34    
+   2.400     54.89     1.4109      585.95    697.21   0.00000  0.00000   98.45428 5345.00049     1600.0  2.316117      620.95    
+   2.600     45.68     1.4235      588.06    691.65   0.00000  0.00000   98.45428 5345.00049     1600.0  2.033186      620.44    
+   2.800     36.47     1.4344      589.88    686.71   0.00000  0.00000   98.45428 5345.00049     1600.0  1.740515      619.64    
+   3.000     27.29     1.4435      591.38    682.57   0.00000  0.00000   98.45428 5345.00049     1600.0  1.433015      616.76    
+   3.200     18.13     1.4505      592.50    679.38   0.00000  0.00000   98.45428 5345.00049     1600.0  1.104642      612.03    
+   3.400      9.03     1.4550      593.24    677.28   0.00000  0.00000   98.45428 5345.00049     1600.0 0.7477815      606.44    
+   3.600      0.00     1.4571      593.57    676.32   0.00000  0.00000   98.45428 5345.00049     1600.0 0.3525203      599.79    
+
+
+
+ TIME =  0.00000 SEC  - RESULTS FOR CHANNEL    1
+
+ DISTANCE   VAP.GEN.   EFF. ENTHALPY  EFF. MOMENTUM  SLIP RATIO  D(VGR) WRT   D(VGR) WRT  D(SLIP) WRT  VAPOR FLOW
+   (M)     RATE(KG/S)  DENS.(KG/M3)   DENS.(KG/M3)               ALPHA(KG/S)  FLOW RATE      ALPHA     RATE(KG/S)
+
+    0.100       0.000        748.661        748.661    1.000000       0.0000    0.000000     0.000000      0.0000
+    0.300       0.000        747.237        747.237    1.000000       0.0000    0.000000     0.000000      0.0000
+    0.500       0.000        744.897        744.897    1.000000       0.0000    0.000000     0.000000      0.0000
+    0.700       0.000        741.687        741.687    1.000000       0.0000    0.000000     0.000000      0.0000
+    0.900       0.000        737.676        737.676    1.000000       0.0000    0.000000     0.000000      0.0000
+    1.100       0.000        732.951        732.951    1.000000       0.0000    0.000000     0.000000      0.0000
+    1.300       0.000        727.622        727.622    1.000000       0.0000    0.000000     0.000000      0.0000
+    1.500       0.000        721.822        721.822    1.000000       0.0000    0.000000     0.000000      0.0000
+    1.700       0.000        715.703        715.703    1.000000       0.0000    0.000000     0.000000      0.0000
+    1.900       0.000        709.436        709.436    1.000000       0.0000    0.000000     0.000000      0.0000
+    2.100       0.000        703.207        703.207    1.000000       0.0000    0.000000     0.000000      0.0000
+    2.300       0.000        697.212        697.212    1.000000       0.0000    0.000000     0.000000      0.0000
+    2.500       0.000        691.648        691.648    1.000000       0.0000    0.000000     0.000000      0.0000
+    2.700       0.000        686.708        686.708    1.000000       0.0000    0.000000     0.000000      0.0000
+    2.900       0.000        682.569        682.569    1.000000       0.0000    0.000000     0.000000      0.0000
+    3.100       0.000        679.385        679.385    1.000000       0.0000    0.000000     0.000000      0.0000
+    3.300       0.000        677.275        677.275    1.000000       0.0000    0.000000     0.000000      0.0000
+    3.500       0.000        676.322        676.322    1.000000       0.0000    0.000000     0.000000      0.0000
+1PROBLEM TITLE :                                                                         
+
+
+ TIME =  0.00000 SEC  - TEMPERATURE DATA FOR ROD    1 (FUEL TYPE  1)
+
+ DISTANCE      FLUX       DNBR   CHANNEL   AV FUEL T               TEMPERATURE
+    (M)       (MW/M2)                       (DEG-K)      T( 1)    T( 2)    T( 3)    T( 4)    T( 5)    T( 6)    T( 7)
+ 
+  0.100      0.06970       0.000    0         606.7      633.6    628.5    617.2    600.2    577.8    568.7    564.5
+  0.300      0.20576       0.000    0         692.3      771.5    756.5    723.3    673.0    606.9    580.1    567.8
+  0.500      0.33617       0.000    0         774.9      904.2    879.6    825.5    743.3    635.3    591.6    571.3
+  0.700      0.45668       0.000    0         851.6     1027.3    993.9    920.4    808.7    662.0    602.6    575.1
+  0.900      0.56378       7.779    1         920.3     1137.3   1096.0   1005.3    867.4    686.2    612.9    579.0
+  1.100      0.65430       6.187    1         979.0     1230.7   1182.9   1077.6    917.5    707.3    622.2    582.8
+  1.300      0.72559       5.146    1        1025.8     1305.0   1251.9   1135.1    957.7    724.5    630.2    586.5
+  1.500      0.77554       4.430    1        1059.5     1357.9   1301.2   1176.3    986.7    737.4    636.6    590.0
+  1.700      0.80270       3.924    1        1079.0     1387.9   1329.1   1199.9   1003.6    745.7    641.3    593.0
+  1.900      0.80625       3.560    1        1083.8     1394.0   1335.0   1205.2   1008.1    748.9    644.1    595.6
+  2.100      0.78610       3.300    1        1073.7     1376.1   1318.6   1192.1    999.8    747.2    645.0    597.7
+  2.300      0.74285       3.118    1        1049.0     1334.8   1280.5   1160.9    979.2    740.5    643.9    599.2
+  2.500      0.67775       3.000    1        1010.5     1271.2   1221.7   1112.6    946.8    729.0    640.9    600.1
+  2.700      0.59273       2.936    1         959.3     1187.3   1144.0   1048.6    903.6    713.1    636.0    600.4
+  2.900      0.49028       2.923    1         896.9     1085.5   1049.7    970.7    850.8    693.3    629.5    600.1
+  3.100      0.37342       2.958    1         825.2      968.9    941.5    881.4    790.1    670.1    621.6    599.1
+  3.300      0.24558       3.045    1         746.3      840.7    822.8    783.3    723.2    644.3    612.3    597.6
+  3.500      0.11052       3.190    1         662.4      705.0    696.9    679.1    652.1    616.5    602.2    595.5
+
+
+ TIME =  0.00000 SEC  - HEAT TRANSFER DATA FOR ROD   1 (FUEL TYPE  1)
+
+ DISTANCE  H.T.MODE      HSURF            HGAP        TFLUID
+   (M)                  (W/M2/K)        (W/M2/K)       (K)
+ 
+   0.100      1       53892.254       9400.000      563.24
+   0.300      1       53950.273       9400.000      563.96
+   0.500      1       54045.227       9400.000      565.12
+   0.700      1       54174.516       9400.000      566.70
+   0.900      1       54334.715       9400.000      568.63
+   1.100      1       54521.617       9400.000      570.85
+   1.300      1       54730.348       9400.000      573.28
+   1.500      1       54955.496       9400.000      575.86
+   1.700      1       55191.191       9400.000      578.49
+   1.900      1       55431.168       9400.000      581.10
+   2.100      1       55668.836       9400.000      583.61
+   2.300      1       55897.305       9400.000      585.95
+   2.500      1       56109.531       9400.000      588.06
+   2.700      1       56298.480       9400.000      589.88
+   2.900      1       56457.391       9400.000      591.38
+   3.100      1       56580.164       9400.000      592.50
+   3.300      1       56661.777       9400.000      593.24
+   3.500      1       56698.750       9400.000      593.57
+1PROBLEM TITLE :                                                                         
+
+
+ TIME =  0.00000 SEC  -    EPRI CRITICAL HEAT FLUX SUMMARY
+
+    DISTANCE      FLUX      MDNBR     ROD    CHANNEL
+        M        MW/M2     
+
+      0.100      0.000      0.000       0       0
+      0.300      0.000      0.000       0       0
+      0.500      0.000      0.000       0       0
+      0.700      0.000      0.000       0       0
+      0.900      0.564      7.779       1       1
+      1.100      0.654      6.187       1       1
+      1.300      0.726      5.146       1       1
+      1.500      0.776      4.430       1       1
+      1.700      0.803      3.924       1       1
+      1.900      0.806      3.560       1       1
+      2.100      0.786      3.300       1       1
+      2.300      0.743      3.118       1       1
+      2.500      0.678      3.000       1       1
+      2.700      0.593      2.936       1       1
+      2.900      0.490      2.923       1       1
+      3.100      0.373      2.958       1       1
+      3.300      0.246      3.045       1       1
+      3.500      0.111      3.190       1       1
+
+
+
+          DISTRIBUTION OF FUEL MASS BY ENTHALPY
+
+                                ENTHALPY RANGE                                     MASS
+           ------------------------------------------------------           -------------------
+                   (MJ/KG)                        (CAL/G)                      (KG)        (%)
+
+              0.00000 -     0.20920         0.00000 -    49.99999              403.09     66.67
+              0.20920 -     0.41840        49.99999 -    99.99998              201.54     33.33
+              0.41840 -     0.71128        99.99998 -   169.99997                0.00      0.00
+              0.71128 -     0.92048       169.99997 -   219.99997                0.00      0.00
+              0.92048 -     1.12968       219.99997 -   269.99997                0.00      0.00
+              1.12968 -     1.17152       269.99997 -   279.99997                0.00      0.00
+              1.17152 -     1.41001       279.99997 -   336.99994                0.00      0.00
+              1.41001 -     1.77820       336.99994 -   424.99994                0.00      0.00
+                      >     1.77820                 >   424.99994                0.00      0.00
+
+
+          MAX. FUEL ENTHALPY =    0.22972 MJ/KG  (   54.90485 CAL/G) , ROD NO. =   1 , AXIAL NODE NO. =  10
+
+
+ ITERATIONS                    =      3
+ AXIAL FLOW CONVERGENCE        =   0.000000
+ CROSSFLOW CONVERGENCE         =   0.000000
+ FLUID TEMPERATURE CONVERGENCE =   0.000000
+ HT COEFFICIENT CONVERGENCE    =   0.010227
+ ROD TEMPERATURE CONVERGENCE(F)=   0.235412
+ VOID FRACTION   CONVERGENCE   =   0.000000
+ MINIMUM PRESSURE DROP         =   162.0425 KPA  IN CHANNEL    1
+ MAXIMUM PRESSURE DROP         =   162.0425 KPA  IN CHANNEL    1
+ MEAN PRESSURE DROP            =   162.0425 KPA 
+ MEAN HYDROSTATIC HEAD         =    25.1482 KPA 
+ MAX. INLET MASS FLUX              =  5345.000488 KG/M2/SEC  IN CHANNEL    1
+ MIN. INLET MASS FLUX              =  5345.000488 KG/M2/SEC  IN CHANNEL    1
+ MEAN INLET MASS FLUX              =  5345.000488 KG/M2/SEC 
+ SATURATION TEMPERATURE                      =     618.68 K 
+ MINIMUM FILM BOILING TEMPERATURE (BERENSON) =     810.93 K 
+ MINIMUM FILM BOILING HEAT FLUX (BERENSON)   = 0.29927537 MW/M2      
+ MINIMUM FILM BOILING HTC       (BERENSON)   =    1556.70 W/M2/K      
+ MAX. NO. IT. FOR EPRI VOID MODEL  =     0
+
+
+ SUMMARY OF CPU TIME (SEC) FOR T.H. SUBPROGRAMS :
+
+    HEAT       ---->    0.00
+    MIX        ---->    0.00
+    ENERGY     ---->    0.00
+    PROP       ---->    0.00
+    VOID       ---->    0.00
+    DIFFER(3)  ---->    0.00
+    DIVERT     ---->    0.00
+    DIFFER(5)  ---->    0.00
+    DIFFER(2)  ---->    0.00
+    SCHEME     ---->    0.00

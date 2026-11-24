@@ -236,6 +236,52 @@ def extract_arrays(input_path):
 
     void_data = np.asarray(void_rows, dtype=float)
 
+    # ##################################################
+    # Linear fission power distribution
+    # ##################################################
+
+    # Columns:
+    # 0: AXIAL ROW NUMBER
+    # 1: LINEAR FISSION POWER (W/M)
+
+    power_section = find_section(
+        text,
+        "LINEAR FISSION POWER",
+        [
+            "PROBLEM TITLE",
+            "TIME STEP NO."
+        ]
+    )
+
+    power_rows = numeric_rows(
+        power_section,
+        minimum_columns=2
+    )
+
+    if not power_rows:
+        raise ValueError(
+            "No numeric rows found in the linear fission power table."
+        )
+
+    power_data = np.asarray(power_rows, dtype=float)
+
+    # Check that there are 24 axial power values
+    if len(power_data) != 24:
+        raise ValueError(
+            f"Expected 24 linear power values, "
+            f"but found {len(power_data)}."
+        )
+
+    # Check that row numbers run from 1 to 24
+    expected_rows = np.arange(1, 25)
+
+    if not np.array_equal(power_data[:, 0], expected_rows):
+        raise ValueError(
+            "Unexpected row numbering in the linear fission power table."
+        )
+
+    linear_power = power_data[:, 1]
+
 
     # ##################################################
     # Check axial coordinates
@@ -278,6 +324,9 @@ def extract_arrays(input_path):
 
         # Void fraction
         "void_fraction": void_data[:, 6],
+
+        # Linear fission power (W/m)
+        "linear_power": linear_power,
 
     }
 
@@ -339,7 +388,7 @@ def main():
     )
 
     print(
-        f"Saved all eight arrays to:\n{output_path}"
+        f"Saved all nine arrays to:\n{output_path}"
     )
 
 
